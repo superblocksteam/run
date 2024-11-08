@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.7] - 2024-11-08
+
+### Added
+
+- Added option to the `WaitGroup` runnable to block the `Close` function on the `Waitgroup` completing
+
+## [0.0.6] - 2024-10-18
+
+### Added
+
+- Updated `process` runnable to not return an error, when one of the signals to listen for is received
+
 ## [0.0.5] - 2024-05-08
 
 ### Added
